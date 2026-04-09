@@ -54,12 +54,13 @@ export default function RootLayout({
       >
         {children}
         <Analytics />
-        <Script
+        {/* Google AdSense - 请替换为您自己的广告ID */}
+        {/* <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7207313144293144"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
           crossOrigin="anonymous"
           strategy="afterInteractive"
-        />
+        /> */}
       </body>
     </html>
   );
